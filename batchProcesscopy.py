@@ -1,5 +1,4 @@
 ###########
-#
 # Batch process diamonds
 # Usage: 
 #   Set up paths to executable, DLL and working directory. Point the 
@@ -9,7 +8,6 @@
 # 
 #   WARNING: Modifies the ini-file in the working directory and strips
 #            all comments!
-#
 ###########
 
 from os import path, listdir, mkdir, path

@@ -75,7 +75,7 @@ def updateIniFile(iniPath, job):
     parser.write(file(iniPath, "w"))
 
 
-# Run the process...
+# Run the process... What process is this?
 def runProcess(exe, dll, workingDir):
     testHarnessProcess = subprocess.Popen([exe, dll], cwd=workingDir)
     testHarnessProcess.wait()

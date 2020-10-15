@@ -1,10 +1,10 @@
 import csv
-import os
 import pyodbc
 
 hongfile = open(
     r'T:\Confusion matrices based on 2015-06-30 on\Stone List of 3033 samples with one artifact allowed.csv')  # classsifier generated from Eagle
 hongdata = csv.DictReader(hongfile, delimiter=",")
+
 ##FMfile = open('Allgradesmay.csv','rb')  #Database queried
 ##FMdata = csv.DictReader(FMfile)
 
